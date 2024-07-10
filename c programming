@@ -1,0 +1,65 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main()
+{
+    int day;
+    printf("enter");
+    scanf("%d",&day);
+    
+    if (day==1)
+    {
+        printf("jan 30");
+        
+    }
+    else if(day==2)
+    {
+        printf("feb 28");
+    }
+    else if(day==3)
+    {
+        printf("march 31");
+    }
+    else if(day==4)
+    {
+        printf("aplir 30");
+    }
+    else if(day==5)
+    {
+        printf("may 31");
+    }
+    else if(day==6)
+    {
+        printf(" june 30");
+    }
+    else if(day==7)
+    {
+        printf("july 31 ");
+    }
+    else if(day==8)
+    {
+        printf("august 31");
+    }
+    else if(day==9)
+    {
+        printf("sept 30");
+    }
+    else if(day==10)
+    {
+        printf("oct 31");
+    }
+    else if(day==11)
+    {
+        printf("nov 30");
+    }
+    else if(day==12)
+    {
+        printf("dec 31");
+    }
+    else
+    {
+        printf("invalid value");
+    }
+    return 0;
+
+}
+
